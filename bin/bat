@@ -1,0 +1,3 @@
+#!/bin/sh
+
+sed -n -e '/__END__/,$p' $1 | tail -n +3
