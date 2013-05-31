@@ -1,0 +1,4 @@
+#!/bin/sh
+
+ruby -v
+ruby $1
